@@ -1,23 +1,38 @@
 .container-fluid {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 
-.bg-1 {
+.bg-0 {
   /*Green*/
   background-color: #1abc9c;
   color: white;
 }
 
-.bg-2 {
+.bg-1 {
   /* Dark Blue */
   background-color: #474e5d;
   color: white;
 }
 
-.bg-3 {
+.bg-2 {
   background-color: white;
   color: #555555;
+}
+
+.bg-3 {
+  /* Dark Blue */
+  background-color: #474e5d;
+  color: white;
+}
+
+.skills {
+  font-size: 24px;
+}
+
+.skill-logo {
+  font-size: 50px;
+  color: #1abc9c;
 }
 
 .thumbnail {
@@ -27,6 +42,7 @@
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  color: #474e5d;
 }
 
 .thumbnail img {
@@ -36,8 +52,8 @@
 }
 
 .bg-4 {
-  /*Dark Blue*/
-  background-color: #474e5d;
+  /*Green*/
+  background-color: #1abc9c;
   color: white;
 }
 
@@ -48,5 +64,5 @@
 
 .logo {
   /*Green*/
-  color: #1abc9c;
+  color: #474e5d;
 }
