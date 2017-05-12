@@ -27,11 +27,11 @@
 }
 
 .skills {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .skill-logo {
-  font-size: 50px;
+  font-size: 40px;
   color: #1abc9c;
 }
 
@@ -65,4 +65,8 @@
 .logo {
   /*Green*/
   color: #474e5d;
+}
+
+hr {
+  margin: 0 620px;
 }
