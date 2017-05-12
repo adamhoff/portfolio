@@ -36,7 +36,17 @@
 }
 
 .bg-4 {
-  /*Green*/
+  /*Dark Blue*/
   background-color: #474e5d;
   color: white;
+}
+
+.mail, .mail:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  /*Green*/
+  color: #1abc9c;
 }
