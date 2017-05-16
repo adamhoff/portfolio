@@ -36,12 +36,9 @@
 }
 
 .thumbnail {
-  margin-left: 60px;
-  width: 70%;
-  height: 70%;
-  padding: 0 0 15px 0;
-  border: none;
-  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15px;
   color: #474e5d;
 }
 
@@ -68,5 +65,17 @@
 }
 
 hr {
-  margin: 0 620px;
+  width: 220px;
+}
+.bg-1 h3{
+  font-size: 35px;
+}
+
+.about-me p{
+  text-align: left;
+  font-size: 30px;
+}
+.about-me .first{
+  padding-right: 30px;
+  border-right: 1px solid white;
 }
