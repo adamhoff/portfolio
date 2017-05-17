@@ -25,13 +25,15 @@
   background-color: #474e5d;
   color: white;
 }
-
+.technical{
+  text-align: left;
+}
 .skills {
   font-size: 20px;
 }
 
 .skill-logo {
-  font-size: 40px;
+  font-size: 20px;
   color: #1abc9c;
 }
 
@@ -70,12 +72,13 @@ hr {
 .bg-1 h3{
   font-size: 35px;
 }
-
+.about-me{
+  padding: 10px 30px 10px 30px;
+}
 .about-me p{
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
 }
 .about-me .first{
-  padding-right: 30px;
   border-right: 1px solid white;
 }
