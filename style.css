@@ -12,6 +12,10 @@ body {
   color: snow;
 }
 
+.headshot {
+  border-radius: 180px;
+}
+
 .bg-1 {
   background-color: #24332D;
   color: snow;
@@ -23,6 +27,7 @@ body {
 }
 
 .bg-3 {
+  padding-bottom: 100px;
   background-color: #24332D;
   color: snow;
 }
@@ -48,8 +53,8 @@ body {
 }
 
 .skill-logo {
-  font-size: 20px;
-  color: #1abc9c;
+  font-size: 15px;
+  color: #358DAA;
 }
 
 .related_skills h2 {
@@ -75,6 +80,7 @@ body {
 }
 
 .contact {
+  font-size: 15px;
   margin-top: 30px;
 }
 

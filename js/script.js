@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".navbar a, footer a[href='#top']").on('click', function(event) {
+  $(".navbar a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
 
@@ -7,7 +7,7 @@ $(document).ready(function() {
 
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 900, function(){
+      }, 900, function() {
         window.location.hash = hash;
       });
     }

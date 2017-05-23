@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <!-- SCROLSPY  -->
@@ -39,7 +39,7 @@
 
   <div class="container-fluid bg-0 text-center">
     <h2>Adam Hoff</h2>
-    <img src="images/head_shot.jpg" class="img-circle headshot" alt="Adam Hoff">
+    <img src="images/head_shot.jpg" class="headshot" alt="Adam Hoff">
     <h3>Web developer</h3>
   </div>
 
@@ -66,37 +66,37 @@
         <h2>Technical</h2>
         <div class="col-sm-6 text-left">
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">HTML/CSS</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">JavaScript</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Ruby on Rails</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">AngularJS</span>
           </div>
         </div>
         <div class="col-sm-6 text-left">
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">jQuery</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">PostgreSQL</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Bootstrap</span>
           </div>
           <div class="technical">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">APIs</span>
           </div>
         </div>
@@ -105,29 +105,29 @@
         <h2>Related</h2>
         <div class="col-sm-6 text-left ">
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Front-end development</span>
           </div>
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Object programming</span>
           </div>
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Git workflows</span>
           </div>
         </div>
         <div class="col-sm-6 text-left">
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Agile programming</span>
           </div>
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Team collaborating</span>
           </div>
           <div class="related">
-            <span class="glyphicon glyphicon-cog skill-logo"></span>
+            <span class="glyphicon glyphicon-chevron-right skill-logo"></span>
             <span class="skills">Front-end design</span>
           </div>
         </div>
@@ -147,15 +147,33 @@
           <a href="https://adamhoff.github.io/Tower-Of-Hanoi/"><img src="images/hanoi.png" alt="Tower Of Hanoi"></a>
           <p><strong>Tower Of Hanoi</strong></p>
           <p>A front-end mathematical drag n'drop puzzle game</p>
+          <a href="#project1" data-toggle="collapse">More Info</a>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div id="project1" class="col-sm-8 text-left collapse">
+        <p>Tower of Hanoi was my very first front-end project using HTML, CSS and JavaScript taking a total of 4-5 days to complete. The game consists of three rods and a number of disks of different sizes, which can append onto any rod. The puzzle starts
+          with the disks in a stack in ascending order by size on one rod, the smallest at the top. It can be played with no less than three discs, up to a maximum of eight.</p>
+        <p>The rules of the game are as follows:</p>
+        <ul>
+          <li>Only one disk may be moved at a time.</li>
+          <li>A disk can only be moved if it is the uppermost disk on a stack.</li>
+          <li>No disk may be placed ontop of a smaller disk.</li>
+        </ul>
+        <p>The game is finished once all disks are moved from the first stack, to the third stack.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row text-center">
+      <div class="col-sm-4 pull-right">
         <div class="thumbnail">
           <a href="https://boiling-cliffs-93796.herokuapp.com/"><img src="images/calendar.png" alt="Calendar"></a>
           <p><strong>Sort My active Life</strong></p>
           <p>A full-stack calender app using Ruby on Rails</p>
         </div>
       </div>
+    </div>
+    <br>
+    <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
           <a href="https://adamhoff.github.io/project3/"><img src="images/goldie_naut.png" alt="Goldienauts"></a>
@@ -170,17 +188,17 @@
   <div id="contact" class="container-fluid bg-4 text-center">
     <h2>Contact</h2>
     <div class="row text-left contact">
-      <div class="col-sm-3">
+      <div class="col-sm-6">
         <p><span class="glyphicon glyphicon-inbox logo"></span>
           <a class="mail" href="https://github.com/adamhoff">Github</a></p>
-        <p><span class="glyphicon glyphicon-envelope logo"></span>
-          <a class="mail" href="mailto:adamhoff79@gmail.com">adamhoff79@gmail.com</a></p>
-      </div>
-      <div class="col-sm-3">
-        <p><span class="glyphicon glyphicon-user logo"></span>
-          <a class="mail" href="https://www.linkedin.com/in/adam-hoff-025a76ba/">Linkedin</a></p>
         <p><span class="glyphicon glyphicon-book logo"></span>
           <a class="mail" href="https://www.facebook.com/adam.hoff.16">Facebook</a></p>
+      </div>
+      <div class="col-sm-6">
+        <p><span class="glyphicon glyphicon-user logo"></span>
+          <a class="mail" href="https://www.linkedin.com/in/adam-hoff-025a76ba/">Linkedin</a></p>
+        <p><span class="glyphicon glyphicon-envelope logo"></span>
+          <a class="mail" href="mailto:adamhoff79@gmail.com">adamhoff79@gmail.com</a></p>
       </div>
     </div>
   </div>
