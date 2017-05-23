@@ -1,35 +1,50 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
 .container-fluid {
   padding-top: 50px;
   padding-bottom: 70px;
 }
 
 .bg-0 {
-  /*Green*/
-  background-color: #1abc9c;
-  color: white;
+  background-color: #358DAA;
+  color: snow;
 }
 
 .bg-1 {
-  /* Dark Blue */
-  background-color: #474e5d;
-  color: white;
+  background-color: #24332D;
+  color: snow;
 }
 
 .bg-2 {
-  background-color: white;
-  color: #555555;
+  background-color: snow;
+  color: #24332d;
 }
 
 .bg-3 {
-  /* Dark Blue */
-  background-color: #474e5d;
-  color: white;
+  background-color: #24332D;
+  color: snow;
 }
-.technical{
-  text-align: left;
+
+.technical_skills h2 {
+  margin-right: 70px;
 }
+
+.technical {
+  margin-left: 30px;
+}
+
 .skills {
   font-size: 20px;
+}
+
+.related_skills {
+  margin-top: 200px;
+}
+
+.related {
+  margin-left: 30px;
 }
 
 .skill-logo {
@@ -37,48 +52,80 @@
   color: #1abc9c;
 }
 
+.related_skills h2 {
+  margin-right: 30px;
+}
+
 .thumbnail {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 315px;
   padding-bottom: 15px;
-  color: #474e5d;
+  color: #24332D;
 }
 
 .thumbnail img {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 250px;
   margin-bottom: 10px;
 }
 
 .bg-4 {
-  /*Green*/
-  background-color: #1abc9c;
-  color: white;
+  background-color: #358DAA;
+  color: snow;
+}
+
+.contact {
+  margin-top: 30px;
 }
 
 .mail, .mail:hover {
   text-decoration: none;
-  color: white;
+  color: snow;
+}
+
+.mail:hover {
+  text-decoration: underline;
 }
 
 .logo {
-  /*Green*/
-  color: #474e5d;
+  color: #24332D;
 }
 
 hr {
   width: 220px;
 }
-.bg-1 h3{
+
+.bg-1 h3 {
   font-size: 35px;
 }
-.about-me{
+
+.about-me {
   padding: 10px 30px 10px 30px;
 }
-.about-me p{
+
+.p1 {
+  font-size: 25px;
   text-align: left;
-  font-size: 20px;
+  padding-right: 15px;
+  margin: 70px 130px 10px 0;
 }
-.about-me .first{
-  border-right: 1px solid white;
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #358DAA;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: snow !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #358DAA !important;
+  background-color: snow !important;
 }

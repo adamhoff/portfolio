@@ -4,43 +4,67 @@
 <head>
   <title>Portfolio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=3">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Quicksand:700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </head>
 
-<body>
+<!-- SCROLSPY  -->
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#top">Top</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="container-fluid bg-0 text-center">
-    <h3>Who Am I?</h3>
-    <img src="images/head_shot.jpg" class="img-circle" alt="Me">
     <h2>Adam Hoff</h2>
-    <hr>
-    <h4>Web developer</h4>
+    <img src="images/head_shot.jpg" class="img-circle headshot" alt="Adam Hoff">
+    <h3>Web developer</h3>
   </div>
-  <div class="container-fluid bg-1 text-center">
+
+  <!-- ABOUT ME SECTION -->
+
+  <div id="about" class="container-fluid bg-1 text-center">
     <h3>About Me</h3>
     <div class="row about-me">
       <div class="col-sm-6">
-        <p class="first">I'm a junior web developer with a passion for all things technology. I am able to work calmly and productively and finish the task at hand while under high stress and pressure. I’m a quick learner; grasping new skills and ideas without hesitation
+        <p class="p1">I'm a junior web developer with a passion for all things technology. I am able to work calmly and productively and finish the task at hand while under high stress and pressure. I’m a quick learner; grasping new skills and ideas without hesitation
           and I use these skills throughout my work. My optimism and curiosity for web development will only keep growing as I continue to use innovate technologies to create stunning front-end designs and formulate clever solutions to any obstacle. </p>
-      </div>
-      <div class="col-sm-6">
-        <p></p>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid bg-2 text-center">
+  <!--SKILLS SECTION -->
+
+  <div id="skills" class="container-fluid bg-2 text-center">
     <h2>Skills</h2>
-    <br>
     <h4><em>What I excell in</em></h4>
     <br>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 technical_skills">
         <h2>Technical</h2>
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-left">
           <div class="technical">
             <span class="glyphicon glyphicon-cog skill-logo"></span>
             <span class="skills">HTML/CSS</span>
@@ -58,7 +82,7 @@
             <span class="skills">AngularJS</span>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-left">
           <div class="technical">
             <span class="glyphicon glyphicon-cog skill-logo"></span>
             <span class="skills">jQuery</span>
@@ -77,22 +101,21 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 related_skills">
         <h2>Related</h2>
-        <div class="col-sm-6 text-left">
+        <div class="col-sm-6 text-left ">
           <div class="related">
             <span class="glyphicon glyphicon-cog skill-logo"></span>
             <span class="skills">Front-end development</span>
           </div>
           <div class="related">
             <span class="glyphicon glyphicon-cog skill-logo"></span>
-            <span class="skills">Object oriented programming</span>
+            <span class="skills">Object programming</span>
           </div>
           <div class="related">
             <span class="glyphicon glyphicon-cog skill-logo"></span>
             <span class="skills">Git workflows</span>
           </div>
-
         </div>
         <div class="col-sm-6 text-left">
           <div class="related">
@@ -111,49 +134,51 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-3 text-center">
+
+  <!-- PROJECT SECTION -->
+
+  <div id="projects" class="container-fluid bg-3 text-center">
     <h2>Projects</h2>
-    <br>
     <h4><em>What I have Created</em></h4>
+    <br>
     <div class="row text-center">
       <div class="col-sm-4 ">
         <div class="thumbnail">
-          <a href="http://adamhoff.github.io/Tower-Of-Hanoi"><img src="http://i.imgur.com/IcloVK2.png" alt="Tower Of Hanoi"></a>
+          <a href="https://adamhoff.github.io/Tower-Of-Hanoi/"><img src="images/hanoi.png" alt="Tower Of Hanoi"></a>
           <p><strong>Tower Of Hanoi</strong></p>
-          <p>A drag n' drop puzzle game</p>
+          <p>A front-end mathematical drag n'drop puzzle game</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <a href="https://boiling-cliffs-93796.herokuapp.com/"><img src="http://i.imgur.com/LO1SQ5f.png" alt="Calendar"></a>
+          <a href="https://boiling-cliffs-93796.herokuapp.com/"><img src="images/calendar.png" alt="Calendar"></a>
           <p><strong>Sort My active Life</strong></p>
-          <p>A full-stack calender app</p>
+          <p>A full-stack calender app using Ruby on Rails</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="http://placehold.it/200x200/444444/fffff" alt="">
-          <p><strong>Placeholder</strong></p>
-          <p>This is a placeholder</p>
+          <a href="https://adamhoff.github.io/project3/"><img src="images/goldie_naut.png" alt="Goldienauts"></a>
+          <p><strong>Goldie Nauts</strong></p>
+          <p>A full-stack app that displays info about astronauts and our planets</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid bg-4 text-center">
-    <h3>Where To Find Me</h3>
-    <div class="row text-left">
+
+  <!-- Contact Section -->
+  <div id="contact" class="container-fluid bg-4 text-center">
+    <h2>Contact</h2>
+    <div class="row text-left contact">
       <div class="col-sm-3">
         <p><span class="glyphicon glyphicon-inbox logo"></span>
           <a class="mail" href="https://github.com/adamhoff">Github</a></p>
-        <br>
         <p><span class="glyphicon glyphicon-envelope logo"></span>
           <a class="mail" href="mailto:adamhoff79@gmail.com">adamhoff79@gmail.com</a></p>
-        <br>
       </div>
       <div class="col-sm-3">
         <p><span class="glyphicon glyphicon-user logo"></span>
           <a class="mail" href="https://www.linkedin.com/in/adam-hoff-025a76ba/">Linkedin</a></p>
-        <br>
         <p><span class="glyphicon glyphicon-book logo"></span>
           <a class="mail" href="https://www.facebook.com/adam.hoff.16">Facebook</a></p>
       </div>
