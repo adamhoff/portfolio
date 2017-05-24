@@ -38,9 +38,9 @@
   </nav>
 
   <div class="container-fluid bg-0 text-center">
-    <h2>Adam Hoff</h2>
-    <img src="images/head_shot.jpg" class="headshot" alt="Adam Hoff">
-    <h3>Web developer</h3>
+    <div id="intro">
+      <h2>Adam Hoff</h2>
+    </div>
   </div>
 
   <!-- ABOUT ME SECTION -->
@@ -48,7 +48,7 @@
   <div id="about" class="container-fluid bg-1 text-center">
     <h3>About Me</h3>
     <div class="row about-me">
-      <div class="col-sm-6">
+      <div class="col-sm-6 about_me1">
         <p class="p1">I'm a junior web developer with a passion for all things technology. I am able to work calmly and productively and finish the task at hand while under high stress and pressure. I’m a quick learner; grasping new skills and ideas without hesitation
           and I use these skills throughout my work. My optimism and curiosity for web development will only keep growing as I continue to use innovate technologies to create stunning front-end designs and formulate clever solutions to any obstacle. </p>
       </div>
@@ -147,19 +147,22 @@
           <a href="https://adamhoff.github.io/Tower-Of-Hanoi/"><img src="images/hanoi.png" alt="Tower Of Hanoi"></a>
           <p><strong>Tower Of Hanoi</strong></p>
           <p>A front-end mathematical drag n'drop puzzle game</p>
-          <a href="#project1" data-toggle="collapse">More Info</a>
+          <a class="drop_down pull-right" href="#project1" data-toggle="collapse">More Info</a>
         </div>
       </div>
-      <div id="project1" class="col-sm-8 text-left collapse">
-        <p>Tower of Hanoi was my very first front-end project using HTML, CSS and JavaScript taking a total of 4-5 days to complete. The game consists of three rods and a number of disks of different sizes, which can append onto any rod. The puzzle starts
-          with the disks in a stack in ascending order by size on one rod, the smallest at the top. It can be played with no less than three discs, up to a maximum of eight.</p>
-        <p>The rules of the game are as follows:</p>
-        <ul>
-          <li>Only one disk may be moved at a time.</li>
-          <li>A disk can only be moved if it is the uppermost disk on a stack.</li>
-          <li>No disk may be placed ontop of a smaller disk.</li>
-        </ul>
-        <p>The game is finished once all disks are moved from the first stack, to the third stack.</p>
+      <div class="col-sm-8 text-left ">
+        <div id="project1" class="collapse">
+          <p>Tower of Hanoi was is my first front-end project using HTML, CSS and JavaScript taking a total of 4-5 days to complete. The game consists of three rods and a number of disks of different sizes, which can append onto any rod. The puzzle starts
+            with the disks in a stack in ascending order by size on one rod, the smallest at the top. It can be played with no less than three discs, up to a maximum of eight.</p>
+          <p>The rules of the game are as follows:</p>
+          <ul>
+            <li>Only one disk may be moved at a time.</li>
+            <li>A disk can only be moved if it is the uppermost disk on a stack.</li>
+            <li>No disk may be placed ontop of a smaller disk.</li>
+          </ul>
+          <p>The game is finished once all disks are moved from the first stack, to the third stack.</p>
+          <p><a href="https://github.com/adamhoff/Tower-Of-Hanoi/tree/master">See my code here</a> <a href="https://adamhoff.github.io/Tower-Of-Hanoi/">View the project here</a></p>
+        </div>
       </div>
     </div>
     <br>
