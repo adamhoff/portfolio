@@ -9,12 +9,10 @@ body {
 
 .bg-0 {
   height: 100vh;
-  background-image: url('images/ah.png');
+  background-image: url('images/initials.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #b2b2b2;
-  color: #24332D;
+  color: #ffef96;
 }
 
 #intro{
@@ -23,8 +21,12 @@ body {
   left: 43%;
   width: 14vw;
   padding-bottom: 3px;
-  background-color: #ffef96;
+  background-color: #24332D;
   border-radius: 3px;
+}
+#intro a{
+  text-decoration: none;
+  color: #ffef96;
 }
 
 .bg-1, .bg-2 {
@@ -34,11 +36,7 @@ body {
 
 .about_me1 {
   color: #24332D;
-  background-color: #b2b2b2;
-  background-image: url('images/ah.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffef96;
 }
 
 

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".navbar a").on('click', function(event) {
+  $(".navbar a, .bg-0 a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
 
