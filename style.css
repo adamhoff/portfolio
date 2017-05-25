@@ -9,42 +9,41 @@ body {
 
 .bg-0 {
   height: 100vh;
-  background-image: url('images/Initials.png');
+  color: #d9ad7c;
+  background-image: url('images/Background.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  color: #ffef96;
+  background-position: bottom;
 }
 
 #intro{
   position: absolute;
-  top: 50%;
-  left: 43%;
-  width: 14vw;
-  padding-bottom: 3px;
-  background-color: #24332D;
-  border-radius: 3px;
+  top: 32%;
+  left: 30%;
+
 }
 #intro a{
+  color: #f0efef;
+  font-size: 120px;
   text-decoration: none;
-  color: #ffef96;
+  font-family: 'Permanent Marker';
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.bg-1, .bg-2 {
-  background-color: #24332D;
-  color: snow;
+.bg-1{
+  height: 100vh;
+  color: #f0efef;
+  background-color: #618685;
 }
-
-.about_me1 {
-  color: #24332D;
-  background-color: #ffef96;
+.bg-2 {
+  height: 100vh ;
+  color: #f0efef;
+  background-color: #d9ad7c;
 }
-
-
-
 .bg-3 {
+  color: #f0efef;
   padding-bottom: 100px;
-  background-color: #24332D;
-  color: snow;
+  background-color: #618685;
 }
 
 .technical_skills h2 {
@@ -68,8 +67,8 @@ body {
 }
 
 .skill-logo {
+  color: #618685;
   font-size: 15px;
-  color: #ffef96;
 }
 
 .related_skills h2 {
@@ -79,8 +78,8 @@ body {
 .thumbnail {
   width: 400px;
   height: 330px;
+  color: #618685;
   padding-bottom: 15px;
-  color: #24332D;
 }
 
 .thumbnail img {
@@ -94,27 +93,23 @@ body {
 }
 
 #project1 a {
-  color: #ffef96;
+  color: #d9ad7c;
 }
 
 .drop_down {
-  color: black;
   text-decoration: none;
+  color: black;
   font-size: 18px;
   margin-right: 37px;
-  border: 1px solid black;
-  border-radius: 5px;
   padding-left: 3px;
   padding-right: 3px;
-}
-
-.drop_down:hover {
-  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .bg-4 {
-  background-color: #ffef96;
-  color: snow;
+  background-color: #d9ad7c;
+  color: #618685;
 }
 
 .contact {
@@ -122,17 +117,13 @@ body {
   margin-top: 30px;
 }
 
-.mail, .mail:hover {
+.mail {
   text-decoration: none;
-  color: snow;
-}
-
-.mail:hover {
-  text-decoration: underline;
+  color: #618685;
 }
 
 .logo {
-  color: #24332D;
+  color: #618685;
 }
 
 hr {
@@ -146,17 +137,28 @@ hr {
 .about-me {
   padding: 10px 30px 10px 30px;
 }
+.about_me_description{
+  margin-top: 100px;
+}
 
-.p1 {
+.headshot{
+  margin-top: 100px;
+}
+.p0{
+  margin-bottom: 0;
   font-size: 25px;
+  font-weight: bold;
+}
+.p1 {
+  font-size: 18px;
   text-align: left;
   padding-right: 15px;
-  margin: 70px 130px 10px 0;
+  margin: 70px 20px 10px 10px;
 }
 
 .navbar {
   margin-bottom: 0;
-  background-color: #24332D;
+  background-color: rgba(97, 134, 133, 0);
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -164,12 +166,17 @@ hr {
   letter-spacing: 4px;
   border-radius: 0;
 }
-
+.navbar-brand{
+  font-family: 'Permanent Marker';
+  letter-spacing: 0px;
+  font-size: 30px;
+}
 .navbar li a, .navbar .navbar-brand {
-  color: #ffef96 !important;
+  transition: color 0.5s ease;
+  color: #f0efef !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #24332D !important;
-  background-color: #ffef96 !important;
+.navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand:hover {
+  background-color: rgba(97, 134, 133, 0) !important;
+  color: red !important;
 }
