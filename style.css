@@ -17,6 +17,8 @@ body {
 }
 
 #intro{
+  display: none;
+  padding: 0;
   position: absolute;
   top: 32%;
   left: 30%;
@@ -29,6 +31,12 @@ body {
   font-family: 'Permanent Marker';
   text-shadow: 2px 2px 4px #000000;
 }
+#intro p{
+  color: #f0efef;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px #000000;
+  opacity: 0.8;
+}
 
 .bg-1{
   height: 100vh;
@@ -39,11 +47,6 @@ body {
   height: 100vh ;
   color: #f0efef;
   background-color: #d9ad7c;
-}
-.bg-3 {
-  color: #f0efef;
-  padding-bottom: 100px;
-  background-color: #618685;
 }
 
 .technical_skills h2 {
@@ -88,13 +91,6 @@ body {
   margin-bottom: 10px;
 }
 
-#project1 {
-  margin-top: 30px;
-}
-
-#project1 a {
-  color: #d9ad7c;
-}
 
 .drop_down {
   text-decoration: none;
@@ -158,15 +154,17 @@ hr {
 
 .navbar {
   margin-bottom: 0;
-  background-color: rgba(97, 134, 133, 0);
+  background-color: rgba(0, 0, 0, .3);
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   border-radius: 0;
 }
+
 .navbar-brand{
+  display: none;
   font-family: 'Permanent Marker';
   letter-spacing: 0px;
   font-size: 30px;
@@ -174,9 +172,55 @@ hr {
 .navbar li a, .navbar .navbar-brand {
   transition: color 0.5s ease;
   color: #f0efef !important;
-}
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
 
+}
+.navbar li a{
+  border-right: 1px solid white;
+}
 .navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand:hover {
   background-color: rgba(97, 134, 133, 0) !important;
   color: red !important;
+}
+
+.about-container{
+  display: none;
+}
+
+.skills-container{
+  display: none;
+}
+.project1-container{
+  display: none;
+}
+#project1{
+  background-image: url('images/Hanoi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#project2{
+  background-image: url('images/calendar.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.project1-info, .project2-info{
+  position: relative;
+  margin-top: 300px;
+  font-size: 16px;
+  margin-left: 50px;
+  border: 2px solid white;
+  padding-bottom: 50px;
+}
+.project1-info a, .project2-info a{
+  text-decoration: none;
+  color: red;
 }
