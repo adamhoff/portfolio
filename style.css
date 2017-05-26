@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container-fluid {
@@ -41,41 +41,12 @@ body {
 .bg-1{
   height: 100vh;
   color: #f0efef;
-  background-color: #618685;
+  background-color: #669999;
 }
 .bg-2 {
   height: 100vh ;
   color: #f0efef;
   background-color: #d9ad7c;
-}
-
-.technical_skills h2 {
-  margin-right: 70px;
-}
-
-.technical {
-  margin-left: 30px;
-}
-
-.skills {
-  font-size: 20px;
-}
-
-.related_skills {
-  margin-top: 200px;
-}
-
-.related {
-  margin-left: 30px;
-}
-
-.skill-logo {
-  color: #618685;
-  font-size: 15px;
-}
-
-.related_skills h2 {
-  margin-right: 30px;
 }
 
 .thumbnail {
@@ -103,27 +74,17 @@ body {
   border-radius: 5px;
 }
 
-.bg-4 {
-  background-color: #d9ad7c;
-  color: #618685;
+.contact-info {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(102, 153, 153);
+  z-index: 10;
 }
-
-.contact {
-  font-size: 15px;
-  margin-top: 30px;
-}
-
-.mail {
+.contact-info a{
   text-decoration: none;
-  color: #618685;
-}
-
-.logo {
-  color: #618685;
-}
-
-hr {
-  width: 220px;
+  color: white;
 }
 
 .bg-1 h3 {
@@ -133,28 +94,30 @@ hr {
 .about-me {
   padding: 10px 30px 10px 30px;
 }
-.about_me_description{
-  margin-top: 100px;
-}
 
-.headshot{
-  margin-top: 100px;
-}
 .p0{
+  text-shadow: 2px 2px 4px #000000;
   margin-bottom: 0;
   font-size: 25px;
   font-weight: bold;
 }
 .p1 {
+  text-indent: 50px;
   font-size: 18px;
   text-align: left;
   padding-right: 15px;
   margin: 70px 20px 10px 10px;
 }
-
+.skills{
+  margin-top: 100px;
+}
+.icon{
+  margin-right: 5px;
+  color: white;
+}
 .navbar {
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgb(102, 153, 153);
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -170,8 +133,8 @@ hr {
   font-size: 30px;
 }
 .navbar li a, .navbar .navbar-brand {
-  transition: color 0.5s ease;
-  color: #f0efef !important;
+  transition: color 0.4s ease;
+  color: white !important;
   font-weight: bold;
   text-shadow: 2px 2px 4px #000000;
 
@@ -187,11 +150,26 @@ hr {
 .about-container{
   display: none;
 }
-
-.skills-container{
-  display: none;
+.head-picture{
+  height: 750px;
+  width: 550px;
+  margin-right: 150px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.skills ul{
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 16px;
+}
+.skills-title{
+  text-shadow: 1px 1px 1px #000000;
+  color: #9999ff;
+  font-size: 22px;
 }
 .project1-container{
+  display: none;
+}
+.project2-container{
   display: none;
 }
 #project1{
