@@ -10,7 +10,7 @@ body {
 .bg-0 {
   height: 100vh;
   color: #d9ad7c;
-  background-image: url('images/Background.jpg');
+  background-image: url('images/Background.JPG');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -173,7 +173,7 @@ body {
   display: none;
 }
 #project1{
-  background-image: url('images/Hanoi.png');
+  background-image: url('images/Hanoi.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -182,7 +182,7 @@ body {
   text-shadow: 2px 2px 4px #000000;
 }
 #project2{
-  background-image: url('images/calendar.png');
+  background-image: url('images/calendar.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
