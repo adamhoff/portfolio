@@ -1,0 +1,214 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.bg-0 {
+  height: 100vh;
+  color: #d9ad7c;
+  background-image: url('images/Background.JPG');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#intro{
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 32%;
+  left: 30%;
+
+}
+#intro a{
+  color: #f0efef;
+  font-size: 120px;
+  text-decoration: none;
+  font-family: 'Permanent Marker';
+  text-shadow: 2px 2px 4px #000000;
+}
+#intro p{
+  color: #f0efef;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px #000000;
+  opacity: 0.8;
+}
+
+.bg-1{
+  height: 100vh;
+  color: #f0efef;
+  background-color: #669999;
+}
+.bg-2 {
+  height: 100vh ;
+  color: #f0efef;
+  background-color: #d9ad7c;
+}
+
+.thumbnail {
+  width: 400px;
+  height: 330px;
+  color: #618685;
+  padding-bottom: 15px;
+}
+
+.thumbnail img {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+
+.drop_down {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-right: 37px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contact-info {
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(102, 153, 153);
+  z-index: 10;
+}
+.contact-info a{
+  text-decoration: none;
+  color: white;
+}
+
+.bg-1 h3 {
+  font-size: 35px;
+}
+
+.about-me {
+  padding: 10px 30px 10px 30px;
+}
+
+.p0{
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.p1 {
+  text-indent: 50px;
+  font-size: 18px;
+  text-align: left;
+  padding-right: 15px;
+  margin: 70px 20px 10px 10px;
+}
+.skills{
+  margin-top: 100px;
+}
+.icon{
+  margin-right: 5px;
+  color: white;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: rgb(102, 153, 153);
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 3px;
+  border-radius: 0;
+}
+
+.navbar-brand{
+  display: none;
+  font-family: 'Permanent Marker';
+  letter-spacing: 0px;
+  font-size: 30px;
+}
+.navbar li a, .navbar .navbar-brand {
+  transition: color 0.4s ease;
+  color: white !important;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+.navbar li a{
+  border-right: 1px solid white;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a, .navbar-brand:hover {
+  background-color: rgba(97, 134, 133, 0) !important;
+  color: red !important;
+}
+
+.about-container{
+  display: none;
+}
+.head-picture{
+  height: 750px;
+  width: 550px;
+  margin-right: 150px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.skills ul{
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 16px;
+}
+.skills-title{
+  text-shadow: 1px 1px 1px #000000;
+  color: #9999ff;
+  font-size: 22px;
+}
+.project1-container{
+  display: none;
+}
+.project2-container{
+  display: none;
+}
+#project1{
+  background-image: url('images/Hanoi.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#project2{
+  background-image: url('images/calendar.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#project3{
+  background-image: url('images/goldie_naut.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.project1-info, .project2-info, .project3-info{
+  background-color:
+  position: relative;
+  margin-top: 300px;
+  font-size: 16px;
+  margin-left: 50px;
+  border: 2px solid white;
+  padding-bottom: 50px;
+}
+.project1-info a, .project2-info a, .project3-info a{
+  text-decoration: none;
+  color: red;
+}

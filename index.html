@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Ubuntu|Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<!-- NAVBAR  -->
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#top">AH</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="nav-about" href="#about">ABOUT ME</a></li>
+          <li><a id="nav-project1"href="#project1">PROJECT 1</a></li>
+          <li><a id="nav-project2"href="#project2">PROJECT 2</a></li>
+          <li><a id="nav-project3"href="#project3">PROJECT 3</a></li>
+          <li><a id="nav-contact"href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- LANDING -->
+
+  <div class="container-fluid bg-0 text-center">
+    <div id="intro">
+      <h2><a href="#about">Adam Hoff</a></h2>
+      <p><em>Full-stack web developer available for a full-time position</em></p>
+    </div>
+  </div>
+
+  <!-- ABOUT ME SECTION -->
+
+  <div id="about" class="container-fluid bg-1 text-center">
+      <div class="row about-me">
+        <div class="col-sm-6 headshot">
+          <img  class="head-picture" src="images/headshot.jpeg" alt="Headshot">
+        </div>
+        <div class="about-container">
+        <div class="col-sm-6 about_me_description">
+          <p class="p0">
+            -- Hi, my name is Adam --
+          </p>
+          <p class="p1">I'm a 20 year old junior web developer with a passion for all things technology. I am able to work calmly and productively and finish the task at hand while under high stress and pressure. I’m a quick learner; grasping new skills and ideas without hesitation
+          and I use these skills throughout my work. My optimism and curiosity for web development will only keep growing as I continue to use innovating technologies to create stunning front-end designs and formulate clever solutions to any obstacle. </p>
+          <div class="row skills">
+            <div class="col-sm-5 technical text-left">
+              <h4 class="skills-title"><span class="icon glyphicon glyphicon-cog"></span>Technical</h4>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Ruby on Rails</li>
+                <li>Angular</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <div class="col-sm-5 related text-left">
+              <h4 class="skills-title"><span class="icon glyphicon glyphicon-duplicate"></span>Related</h4>
+              <ul>
+                <li>Front-end development</li>
+                <li>Object oriented programming</li>
+                <li>Git workflows</li>
+                <li>Agile programming</li>
+                <li>Team collaborating</li>
+                <li>Communication</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROJECT SECTION -->
+  <div id="project1" class="container-fluid text-center">
+    <div class="project1-container">
+      <div class="row">
+        <div class="col-sm-3 project1-info">
+          <h2><em>Tower Of Hanoi</em></h2>
+          <h4>A front-end mathematical drag n'drop puzzle game</h4>
+          <a href="https://adamhoff.github.io/Tower-Of-Hanoi/">Demo</a>
+          <br><br><br><br><br><br><br>
+          <a href="https://github.com/adamhoff/Tower-Of-Hanoi/tree/master">View the code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="project2" class="container-fluid text-center">
+    <div class="project2-container">
+      <div class="row">
+        <div class="col-sm-3 project2-info">
+          <h2><em>Sort My active Life</em></h2>
+          <h4>A full-stack calender app using Ruby on Rails</h4>
+          <a href="https://boiling-cliffs-93796.herokuapp.com/">Demo</a>
+          <br><br><br><br><br><br><br>
+          <a href="https://github.com/adamhoff/calendar">View the code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="project3" class="container-fluid text-center">
+    <div class="project3-container">
+      <div class="row">
+        <div class="col-sm-3 project3-info">
+          <h2><em>Goldie Nauts</em></h2>
+          <h4>A group collaborated full-stack app</h4>
+          <a href="https://adamhoff.github.io/project3/">Demo</a>
+          <br><br><br><br><br><br><br>
+          <a href="https://github.com/adamhoff/project3">View the code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="https://adamhoff.github.io/project3/"><img src="images/goldie_naut.png" alt="Goldienauts"></a>
+          <p><strong>Goldie Nauts</strong></p>
+          <p>A full-stack app that displays info about astronauts and our planets</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> -->
+
+<!-- <div class="container-fluid contact-info">
+  <nav>
+    <a href="mailto:adamhoff79@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/adam-hoff-025a76ba/">LinkedIn</a>
+    <a href="https://github.com/adamhoff">GitHub</a>
+  </nav>
+</div> -->
+
+
+</body>
+
+</html>
