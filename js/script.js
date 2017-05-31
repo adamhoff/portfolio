@@ -1,7 +1,6 @@
 $(document).ready(function() {
-  $("#intro, .navbar").fadeIn(1300);
 
-  $(".navbar a, .bg-0 a").on('click', function(event) {
+  $(".navigation a").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
 
@@ -9,33 +8,16 @@ $(document).ready(function() {
 
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 900, function() {
+      }, 1000, function() {
         window.location.hash = hash;
       });
     }
   });
-
-  $(window).scroll(function() {
-    if ($(document).scrollTop() < 200) {
-      $(".navbar-brand").fadeOut(1200);
-    }
-    if ($(document).scrollTop() > 200 && $(document).scrollTop() < 1600) {
-      $(".about-container, .navbar-brand").fadeIn(1200);
-    }
-    // else {
-    //   $(".about-container").fadeOut(1200);
-    // }
-    if ($(document).scrollTop() > 1000 && $(document).scrollTop() < 2400)  {
-      $(".project1-container, .navbar-brand").fadeIn(1200);
-    }
-    // else {
-    //   $(".project1-container").fadeOut(1200);
-    // }
-    if ($(document).scrollTop() > 1800 && $(document).scrollTop() < 3200) {
-      $(".project2-container, .navbar-brand").fadeIn(1200);
-    }
-    // else {
-    //   $(".project2-container").fadeOut(1200);
-    // }
-  });
+  $(".nav1").click(function() {
+    $(".nav1").css("text-decoration", "none")
+    $(".nav1").css("color", "lightgrey")
+    $(this).css("text-decoration", "line-through")
+    $(this).css("text-decoration-color", "#00CCFF")
+    $(this).css("color", "black")
+  })
 });
