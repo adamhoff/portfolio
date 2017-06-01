@@ -227,24 +227,29 @@ body{
   margin-left: 150px;
   width: 30%;
   height: 250px;
-  background-color: grey;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  background-color: darkgray;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, .5);
   border: 1px solid black;
   float: left;
+  transition: background 0.5s;
+  color: white;
 }
 #bg-3 .projects:hover{
   box-shadow: none;
+  background: #696969;
 }
 #bg-3 .project-link{
-  padding-top: 100px;
-  height: 100%;
-  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
-#bg-3 a{
-  text-decoration: none;
-  color: white;
+#bg-3 .demo, .repo{
+  text-decoration: underline;
+  font-size: 18px;
+  color: #FFED09;
 }
-
+#bg-3 .demo{
+  margin-right: 100px;
+}
 
 /*BACKGROUND 4*/
 #bg-4{
@@ -266,8 +271,8 @@ body{
   width: 100px;
   height: 100px;
   margin: 50px;
-  background-color: grey;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  background-color: darkgray;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, .5);
   border: 1px solid black;
 }
 #bg-4 .link-container:hover{
