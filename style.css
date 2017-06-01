@@ -43,6 +43,9 @@ body{
   /*BLUE*/
   text-decoration-color: #00CCFF;
 }
+.navigation .top a{
+  color: black !important;
+}
 
 .navigation span{
   text-decoration: line-through;
@@ -58,6 +61,7 @@ body{
   width: 1185px;
   /*YELLOW*/
   background-color: #FFED09;
+  filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, .5));
 }
 
 
@@ -224,20 +228,23 @@ body{
   border: 1px solid black;
   float: left;
   transition: background 0.6s;
-  color: white;
 }
 #bg-3 .projects:hover{
   box-shadow: none;
   background: #696969;
 }
 #bg-3 .project-link{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 80px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, .5);
+  background-color: #00CCFF;
 }
-#bg-3 .demo, .repo{
+/*#00CCFF*/
+/*#FFED09*/
+#bg-3 a{
   text-decoration: underline;
   font-size: 18px;
-  color: #FFED09;
+  color: #00CCFF;
 }
 #bg-3 .demo{
   margin-right: 100px;
