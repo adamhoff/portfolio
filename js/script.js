@@ -52,11 +52,11 @@ $(document).ready(function() {
     $('#repo-3').html('')
   })
   $("#project4-container").hover(function() {
-    $("#project-4").html('This is a placeholder for my project 4.')
+    $("#project-4").html('Full-stack voting application using Meteor and React.')
     $('#demo-4').html('Demo')
     $('#repo-4').html('Code Repo')
   }, function() {
-    $("#project-4").html('Placeholder')
+    $("#project-4").html('CounterFight')
     $('#demo-4').html('')
     $('#repo-4').html('')
   })
