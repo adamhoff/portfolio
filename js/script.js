@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
   $(".nav1").click(function() {
     $(".nav1").css("text-decoration", "none")
-    $(".nav1").css("color", "white")
+    $(".nav1").css("color", "black")
     $(".nav1").css("font-weight", "normal")
     $(".nav1").css("text-shadow", "none")
     $(this).css("color", "black")
