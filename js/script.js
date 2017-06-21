@@ -25,7 +25,7 @@ $(document).ready(function() {
     $(this).css("text-shadow", "1px 1px 2px rgba(0, 0, 0, 0.5)")
   })
   $("#project1-container").hover(function() {
-    $('#project-1').html('Front-end drag n’drop puzzle game.')
+    $('#project-1').html('My very first front-end drag and drop puzzle game using HTML, CSS, and vanilla JavaScript.')
     $('#demo-1').html('Demo')
     $('#repo-1').html('Code Repo')
   }, function() {
@@ -33,17 +33,8 @@ $(document).ready(function() {
     $('#demo-1').html('')
     $('#repo-1').html('')
   })
-  $("#project2-container").hover(function() {
-    $("#project-2").html('Full-stack 2017 calendar application.')
-    $('#demo-2').html('Demo')
-    $('#repo-2').html('Code Repo')
-  }, function() {
-    $("#project-2").html('2017 Calendar')
-    $('#demo-2').html('')
-    $('#repo-2').html('')
-  })
   $("#project3-container").hover(function() {
-    $("#project-3").html('Team collaborated Full-stack space application.')
+    $("#project-3").html('Team collaborated Full-stack space application using HTML, CSS, JavaScript, jQuery, and Ruby on Rails.')
     $('#demo-3').html('Demo')
     $('#repo-3').html('Code Repo')
   }, function() {
@@ -52,7 +43,7 @@ $(document).ready(function() {
     $('#repo-3').html('')
   })
   $("#project4-container").hover(function() {
-    $("#project-4").html('Full-stack voting application using Meteor and React.')
+    $("#project-4").html('Full-stack voting application with user authentication using Meteor.js and React.')
     $('#demo-4').html('Demo')
     $('#repo-4').html('Code Repo')
   }, function() {

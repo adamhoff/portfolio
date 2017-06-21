@@ -72,7 +72,7 @@ body{
 .divider-1{
   height: 10vh;
   width: 1185px;
-  background-color: #80ced6t;
+  background-color: powderblue;
   filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, .5));
 }
 
@@ -202,9 +202,9 @@ body{
 #bg-3 .projects{
   font-size: 22px;
   margin-top: 30px;
-  margin-left: 150px;
-  width: 30%;
-  height: 250px;
+  margin-left: 50px;
+  width: 28%;
+  height: 50%;
   background-color: white;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   float: left;
@@ -221,7 +221,7 @@ body{
   background-color: #dc4c46;
 }
 /*#dc4c46*/
-/*#80ced6t*/
+/*#f4e1d2*/
 #bg-3 a{
   text-decoration: underline;
   font-size: 18px;
