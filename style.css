@@ -29,7 +29,7 @@ body{
   height: 100px;
   padding: 20px;
   padding-left: 30px;
-  border: 2px solid #dc4c46;
+  border: 2px solid royalblue;
   border-left: 2px solid white;
   border-top: 2px solid white;
   border-radius: 180px;
@@ -38,7 +38,7 @@ body{
 .navigation hr{
   margin-top: 40px;
   margin-bottom: 40px;
-  border: 1px solid #dc4c46;
+  border: 1px solid royalblue;
 }
 .navigation p{
   margin-top: 30px;
@@ -47,14 +47,14 @@ body{
   color: black;
   text-decoration: none;
   /*BLUE*/
-  text-decoration-color: #dc4c46;
+  text-decoration-color: royalblue;
 }
 
 .nav1:hover{
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
   color: black !important;
   text-decoration: line-through !important;
-  text-decoration-color: #dc4c46 !important;
+  text-decoration-color: royalblue !important;
 }
 .navigation .top a{
   color: black !important;
@@ -64,24 +64,24 @@ body{
   text-decoration: line-through;
   color: black;
   /*BLUE*/
-  text-decoration-color: #dc4c46;
+  text-decoration-color: royalblue;
 }
 
 
 /*DIVIDER 1*/
 .divider-1{
-  height: 10vh;
-  width: 1185px;
-  background-color: powderblue;
+  height: 7vh;
+  width: 81.5vw;
+  background-color: #ffff77;
   filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, .5));
 }
 
 
 /*BACKGROUND 0*/
 #bg-0{
-  height: 80vh;
-  background: linear-gradient(to top right, #dc4c46 0%,#dc4c46 50%,#000000 50%,white 50%,white 100%);
-  width: 82.3vw;
+  height: 90vh;
+  background: linear-gradient(to top right, royalblue 0%,royalblue 50%,#000000 50%,white 50%,white 100%);
+  width: 81.5vw;
 }
 #bg-0 .intro{
   margin-right: 500px;
@@ -101,7 +101,7 @@ body{
 #bg-0 .image-container img{
   position: absolute;
   height: 24%;
-  width: 43.5%;
+  width: 46.5%;
   top: 0;
   right: 0;
 }
@@ -111,11 +111,10 @@ body{
 #bg-1{
   color: black;
   padding-top: 50px;
-  height: 120vh;
-  width: 82.3vw;
-  background-color: #dc4c46;
-  background: linear-gradient(to bottom left, #dc4c46 0%,#dc4c46 50%,#000000 50%,white 50%,white 100%);
-
+  height: 130vh;
+  width: 81.5vw;
+  background-color: royalblue;
+  background: linear-gradient(to bottom left, royalblue 0%,royalblue 50%,#000000 50%,white 50%,white 100%);
 }
 #bg-1 .info{
   margin-right: 100px;
@@ -123,7 +122,6 @@ body{
 }
 #bg-1 .info h2{
   margin-bottom: 20px;
-  font-weight: bold;
   text-decoration: underline;
   color: white;
 }
@@ -146,6 +144,10 @@ body{
   background: white;
   padding: 10px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#bg-1 .personal-container hr{
+  width: 550px;
+  border: 1px solid black;
 }
 #bg-1 .info .personal-info{
   width: 100%;
@@ -172,10 +174,9 @@ body{
 }
 #bg-1 .skills div {
   padding: 20px;
-  color: #dc4c46;
+  color: royalblue;
   font-weight: bolder;
 }
-
 
 
 /*BACKGROUND 3*/
@@ -189,46 +190,64 @@ body{
 #bg-3{
   padding-top: 50px;
   height: 90vh;
-  width: 82.3vw;
+  width: 81.5vw;
   background-color: white;
-  background: linear-gradient(to top left, #dc4c46 0%,#dc4c46 50%,#000000 50%,white 50%,white 100%);
+  background: linear-gradient(to top left, royalblue 0%,royalblue 50%,#000000 50%,white 50%,white 100%);
 }
 #bg-3 h2{
   font-weight: bold;
   margin-bottom: 20px;
   text-decoration: underline;
-  color: white;
+  color: black;
+}
+#bg-3 p{
+  color: black;
 }
 #bg-3 .projects{
-  font-size: 22px;
+  width: 28%;
+  height: 60%;
+  float: left;
   margin-top: 30px;
   margin-left: 50px;
-  width: 28%;
-  height: 50%;
+  font-size: 22px;
   background-color: white;
+  color: white;
+  border-radius: 30px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  float: left;
   transition: all 0.4s ease-out;
+}
+
+#bg-3 .projects p{
+  text-align: left;
+  margin-left: 3px;
+  margin-right: 2px;
   color: white;
 }
+
+#bg-3 .projects hr{
+  width: 125px;
+}
+
 #bg-3 .projects:hover{
   animation: pulsate 0.2s ease-out;
 }
+
 #bg-3 .project-link{
   margin-top: 50px;
   margin-bottom: 80px;
-  box-shadow: 1px 3px 6px rgba(0, 0, 0, .5);
-  background-color: #dc4c46;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, .4);
+  background-color: royalblue;
 }
-/*#dc4c46*/
-/*#f4e1d2*/
+
 #bg-3 a{
   text-decoration: underline;
+  text-decoration-style: double;
+
   font-size: 18px;
-  color: #dc4c46;
+  color: royalblue;
 }
 #bg-3 a:hover{
-  text-decoration: overline;
+
 }
 
 #bg-3 .demo{
@@ -238,28 +257,43 @@ body{
 /*BACKGROUND 4*/
 #bg-4{
   padding-top: 50px;
-  height: 40vh;
-  width: 82.3vw;
-  background: linear-gradient(to top left, white 0%,white 50%,#dc4c46 50%,#dc4c46 50%,#dc4c46 100%);
+  height: 60vh;
+  width: 81.5vw;
+  background: linear-gradient(to top left, white 0%,white 50%,royalblue 50%,royalblue 50%,royalblue 100%);
 
 }
 #bg-4 h2{
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 140px;
   text-decoration: underline;
   color: white;
+}
+#bg-4 span{
+  font-size: 18px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+#bg-4 span:first-of-type{
+  margin-right: 70px;
+  margin-left: 10px;
+}
+#bg-4 span:last-of-type{
+  margin-right: 45px;
+  margin-left: 50px;
 }
 #bg-4 .contact-links{
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 #bg-4 .link-container {
   width: 100px;
   height: 100px;
-  margin: 50px;
-  background-color: #dc4c46;
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin: 80px;
+  margin-top: 40px;
+  background-color: royalblue;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border: 1px solid black;
   transition: all 0.4s ease-out;
 }

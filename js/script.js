@@ -13,6 +13,13 @@ $(document).ready(function() {
       });
     }
   });
+
+  $(".AH").click(function() {
+    $(".nav1").css("text-decoration", "none")
+    $(".nav1").css("color", "black")
+    $(".nav1").css("font-weight", "normal")
+    $(".nav1").css("text-shadow", "none")
+  })
   $(".nav1").click(function() {
     $(".nav1").css("text-decoration", "none")
     $(".nav1").css("color", "black")
@@ -20,34 +27,37 @@ $(document).ready(function() {
     $(".nav1").css("text-shadow", "none")
     $(this).css("color", "black")
     $(this).css("text-decoration", "line-through")
-    $(this).css("text-decoration-color", "#dc4c46")
+    $(this).css("text-decoration-color", "deepskyblue")
     $(this).css("font-weight", "bolder")
     $(this).css("text-shadow", "1px 1px 2px rgba(0, 0, 0, 0.5)")
   })
+
   $("#project1-container").hover(function() {
-    $('#project-1').html('My very first front-end drag and drop puzzle game using HTML, CSS, and vanilla JavaScript.')
+    $('#project-1 p').html('My very first front-end drag and drop puzzle game using HTML, CSS, and vanilla JavaScript.')
     $('#demo-1').html('Demo')
     $('#repo-1').html('Code Repo')
   }, function() {
-    $('#project-1').html('Tower of Hanoi')
+    $('#project-1 p').html('')
     $('#demo-1').html('')
     $('#repo-1').html('')
   })
+
   $("#project3-container").hover(function() {
-    $("#project-3").html('Team collaborated Full-stack space application using HTML, CSS, JavaScript, jQuery, and Ruby on Rails.')
+    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, and Ruby on Rails.')
     $('#demo-3').html('Demo')
     $('#repo-3').html('Code Repo')
   }, function() {
-    $("#project-3").html('GoldieNauts')
+    $("#project-3 p").html('')
     $('#demo-3').html('')
     $('#repo-3').html('')
   })
+
   $("#project4-container").hover(function() {
-    $("#project-4").html('Full-stack voting application with user authentication using Meteor.js and React.')
+    $("#project-4 p").html('Full-stack voting application with user authentication using Meteor.js and React.')
     $('#demo-4').html('Demo')
     $('#repo-4').html('Code Repo')
   }, function() {
-    $("#project-4").html('CounterFight')
+    $("#project-4 p").html('')
     $('#demo-4').html('')
     $('#repo-4').html('')
   })
