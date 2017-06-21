@@ -33,7 +33,7 @@ $(document).ready(function() {
   })
 
   $("#project1-container").hover(function() {
-    $('#project-1 p').html('My very first front-end drag and drop puzzle game using HTML, CSS, and vanilla JavaScript.')
+    $('#project-1 p').html('My very first front-end drag and drop puzzle game using HTML, CSS, and JavaScript.')
     $('#demo-1').html('Demo')
     $('#repo-1').html('Code Repo')
   }, function() {
