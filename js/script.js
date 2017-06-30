@@ -16,24 +16,24 @@ $(document).ready(function() {
 
   $(".AH").click(function() {
     $(".nav1").css("text-decoration", "none")
-    $(".nav1").css("color", "black")
+    $(".nav1").css("color", "#04202C")
     $(".nav1").css("font-weight", "normal")
     $(".nav1").css("text-shadow", "none")
   })
   $(".nav1").click(function() {
     $(".nav1").css("text-decoration", "none")
-    $(".nav1").css("color", "black")
+    $(".nav1").css("color", " #04202C")
     $(".nav1").css("font-weight", "normal")
     $(".nav1").css("text-shadow", "none")
     $(this).css("color", "black")
     $(this).css("text-decoration", "line-through")
-    $(this).css("text-decoration-color", "deepskyblue")
+    $(this).css("text-decoration-color", "#FF8D3F")
     $(this).css("font-weight", "bolder")
     $(this).css("text-shadow", "1px 1px 2px rgba(0, 0, 0, 0.5)")
   })
 
   $("#project1-container").hover(function() {
-    $('#project-1 p').html('My very first front-end drag and drop puzzle game using HTML, CSS, and JavaScript.')
+    $('#project-1 p').html('A simple front-end drag and drop puzzle game using HTML, CSS, and  vanilla JavaScript.')
     $('#demo-1').html('Demo')
     $('#repo-1').html('Code Repo')
   }, function() {
@@ -43,7 +43,7 @@ $(document).ready(function() {
   })
 
   $("#project3-container").hover(function() {
-    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, and Ruby on Rails.')
+    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, Angular and Rails.')
     $('#demo-3').html('Demo')
     $('#repo-3').html('Code Repo')
   }, function() {
