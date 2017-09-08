@@ -92,7 +92,9 @@ main {
 .main-wrapper{
   padding: 0;
   margin: 0;
-  width:
+  min-width: 947px;
+  max-width: auto;
+  float: right;
 }
 
 /*BACKGROUND 0*/
@@ -135,6 +137,7 @@ main {
   width: 100%;
   background-color: #FF8D3F;
   background: linear-gradient(to bottom left, #FF8D3F 0%,#FF8D3F 50%,#F9F9FF 50%,#F9F9FF 50%,#F9F9FF 100%);
+  padding-bottom: 50px;
 }
 #bg-1 .info{
   margin-right: 100px;
