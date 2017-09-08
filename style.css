@@ -16,6 +16,7 @@ main {
   margin: 0 auto;
   padding: 20px;
 }
+
 .navigation-container{
   display: flex;
   flex-direction: column;
@@ -27,7 +28,7 @@ main {
   z-index: 9999;
   position: fixed;
   height: 100%;
-  width: 17.68%;
+  width: 253px;
   padding: 30px;
   padding-right: 110px;
   margin-right: 10px;
