@@ -14,6 +14,22 @@ $(document).ready(function() {
     }
   });
 
+function lineAnimate(line) {
+  var elem = document.getElementById('line');
+  var size = elem.style.width;
+  var count = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (count == 10) {
+      clearInterval(id);
+    } else {
+      count ++;
+      elem.style.width = size
+    }
+  }
+}
+
+
   $(".AH").click(function() {
     $(".nav1").css("text-decoration", "none")
     $(".nav1").css("color", "#04202C")
@@ -42,13 +58,19 @@ $(document).ready(function() {
     $('#repo-1').html('')
   })
 
+  $("#project2-container").hover(function() {
+    $('#project-2 p').html('A website for local breweries in Virginia using Angular and TypeScript.')
+    $('#repo-2').html('Code Repo')
+  }, function() {
+    $('#project-2 p').html('')
+    $('#repo-2').html('')
+  })
+
   $("#project3-container").hover(function() {
-    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, Angular and Rails.')
-    $('#demo-3').html('Demo')
+    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, and AngularJS.')
     $('#repo-3').html('Code Repo')
   }, function() {
     $("#project-3 p").html('')
-    $('#demo-3').html('')
     $('#repo-3').html('')
   })
 

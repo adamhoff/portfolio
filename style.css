@@ -234,7 +234,7 @@ main {
 }
 #bg-3 .projects{
   float: left;
-  width: 28%;
+  width: 20%;
   height: 400px;
   margin-top: 30px;
   margin-left: 50px;
@@ -272,13 +272,12 @@ main {
 #bg-3 a{
   text-decoration: underline;
   text-decoration-style: double;
-
-  font-size: 18px;
+  font-size: 14px;
   color: #353C3F;
 }
 
 #bg-3 .demo{
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 /*BACKGROUND 4*/
