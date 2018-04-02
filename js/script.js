@@ -67,8 +67,8 @@ function lineAnimate(line) {
   })
 
   $("#project3-container").hover(function() {
-    $("#project-3 p").html('Team collaborated Full-stack space application using HTML, CSS, jQuery, and AngularJS.')
-    $('#repo-3').html('Code Repo')
+    $("#project-3 p").html('A redesign project from scratch for ACE Mentor Program\'s Washington DC website.')
+    $('#repo-3').html('Live site')
   }, function() {
     $("#project-3 p").html('')
     $('#repo-3').html('')
