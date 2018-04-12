@@ -68,7 +68,7 @@ function lineAnimate(line) {
 
   $("#project3-container").hover(function() {
     $("#project-3 p").html('A redesign project from scratch for ACE Mentor Program\'s Washington DC website.')
-    $('#repo-3').html('Live site')
+    $('#repo-3').html('Live Site')
   }, function() {
     $("#project-3 p").html('')
     $('#repo-3').html('')
@@ -76,7 +76,7 @@ function lineAnimate(line) {
 
   $("#project4-container").hover(function() {
     $("#project-4 p").html('Full-stack voting application with user authentication using Meteor.js and React.')
-    $('#demo-4').html('Demo')
+    $('#demo-4').html('Live Site')
     $('#repo-4').html('Code Repo')
   }, function() {
     $("#project-4 p").html('')
