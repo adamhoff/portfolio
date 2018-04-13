@@ -49,7 +49,7 @@ function lineAnimate(line) {
   })
 
   $("#project1-container").hover(function() {
-    $('#project-1 p').html('A simple front-end drag and drop puzzle game using HTML, CSS, and  vanilla JavaScript.')
+    $('#project-1 p').html('A front-end drag and drop puzzle game using HTML, CSS, and  vanilla JavaScript.')
     $('#demo-1').html('Live Site')
     $('#repo-1').html('Code Repo')
   }, function() {
